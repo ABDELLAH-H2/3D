@@ -26,7 +26,7 @@ const config = {
     "Tailwind CSS",
   ],
   author: "Abdellah Alioua",
-  email: "contact@abdellah.dev",
+  email: "contact@abdellahalioua.com",
   site: "https://abdellah.dev",
 
   get ogImg() {
