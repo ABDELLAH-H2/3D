@@ -12,7 +12,7 @@ const PROJECTS = [
   {
     id: 1,
     name: "Event Management System",
-    description: `A full-stack Event Management System with automated scraping capabilities. 
+    description: `A full-stack Event Management System with automated extract capabilities. 
             Features include JWT authentication, favorites system, and n8n workflow 
             integration for automated venue discovery. Built with Node.js, Express.js, 
             and MySQL for robust backend functionality.`,
@@ -23,7 +23,7 @@ const PROJECTS = [
   },
   {
     id: 2,
-    name: "Product Scraping Extension",
+    name: "Product extract Extension",
     description: `A powerful Chrome Extension that scrapes product information (image URLs, 
             category, description) from webpages and exports them as a CSV file. 
             Perfect for e-commerce research, price comparison, and data collection tasks.`,

@@ -1,7 +1,7 @@
 const config = {
   title: "Abdellah Alioua | Full Stack Developer",
   description: {
-    long: "Explore the portfolio of Abdellah Alioua, a Full Stack Developer specializing in building robust web applications and automating workflows. Focused on architecting scalable MERN stack solutions and optimizing workflows with AI and n8n. Experience in visitor management systems, web scraping tools, and e-commerce solutions.",
+    long: "Explore the portfolio of Abdellah Alioua, a Full Stack Developer specializing in building robust web applications and automating workflows. Focused on architecting scalable MERN stack solutions and optimizing workflows with AI and n8n. Experience in visitor management systems, web extract tools, and e-commerce solutions.",
     short:
       "Discover the portfolio of Abdellah Alioua, a Full Stack Developer building scalable web applications and automation solutions.",
   },

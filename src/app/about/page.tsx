@@ -290,7 +290,7 @@ function Page() {
               Hey there! I&apos;m Abdellah, a Full Stack Developer specializing in building
               robust web applications and automating workflows. I&apos;m focused on architecting
               scalable MERN stack solutions and optimizing workflows with AI and n8n.
-              I have experience in visitor management systems, web scraping tools, and e-commerce solutions.
+              I have experience in visitor management systems, web extract tools, and e-commerce solutions.
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me [Your

@@ -788,7 +788,7 @@ const projects: Project[] = [
             Gestion d&apos;événements - Event Management System
           </TypographyP>
           <TypographyP className="font-mono ">
-            A full-stack Event Management System with automated scraping capabilities.
+            A full-stack Event Management System with automated extract capabilities.
             Features include JWT authentication, favorites system, and n8n workflow
             integration for automated venue discovery. Built with Node.js, Express.js,
             and MySQL for robust backend functionality.
@@ -799,16 +799,16 @@ const projects: Project[] = [
             <li>JWT Authentication for secure user access</li>
             <li>Favorites system for saving preferred events</li>
             <li>n8n workflow integration for automation</li>
-            <li>Automated venue discovery through web scraping</li>
+            <li>Automated venue discovery through web extract</li>
           </ul>
         </div>
       );
     },
   },
-  { // 02. Product Scraping Chrome Extension
-    id: "product-scraping",
+  { // 02. Product extract Chrome Extension
+    id: "product-extract",
     category: "Browser Extension",
-    title: "Product Scraping Extension",
+    title: "Product extract Extension",
     src: "/assets/projects-screenshots/product-scraping/landing.png",
     screenshots: ["landing.png"],
     live: "https://github.com/ABDELLAH-H2/product-scraping",
@@ -821,7 +821,7 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono text-2xl text-center">
-            Product Scraping Chrome Extension
+            Product extract Chrome Extension
           </TypographyP>
           <TypographyP className="font-mono ">
             A powerful Chrome Extension that scrapes product information (image URLs,
