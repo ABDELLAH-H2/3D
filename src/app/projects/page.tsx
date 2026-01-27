@@ -24,7 +24,7 @@ const PROJECTS = [
   {
     id: 2,
     name: "Product extract Extension",
-    description: `A powerful Chrome Extension that scrapes product information (image URLs, 
+    description: `A powerful Chrome Extension that extract product information (image URLs, 
             category, description) from webpages and exports them as a CSV file. 
             Perfect for e-commerce research, price comparison, and data collection tasks.`,
     link: "https://github.com/ABDELLAH-H2/product-scraping",
