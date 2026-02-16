@@ -43,6 +43,15 @@ const PROJECTS = [
       "/assets/projects-screenshots/marrakech-shoes/landing.png",
     ],
   },
+  {
+    id: 4,
+    name: "CvForge",
+    description: `CVForge is a simple, powerful tool designed to help you create professional resumes that get noticed by employers and pass through Applicant Tracking Systems (ATS).`,
+    link: "https://cvforge-ochre.vercel.app/",
+    images: [
+      "/assets/projects-screenshots/Cvforge/image.png",
+    ],
+  },
 ];
 function Page() {
   return (

@@ -875,5 +875,71 @@ const projects: Project[] = [
       );
     },
   },
+  {
+    id: "CvForge",
+    category: "CV Builder",
+    title: "CvForge",
+    src: "/assets/projects-screenshots/Cvforge/image.png",
+    screenshots: ["image.png"],
+    live: "https://cvforge-ochre.vercel.app/",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.ts, PROJECT_SKILLS.vite, PROJECT_SKILLS.framerMotion, PROJECT_SKILLS.css],
+      backend: [PROJECT_SKILLS.openai],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            CvForge - ATS-Friendly CV Maker
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            CVForge is a simple, powerful tool designed to help you create professional resumes that get noticed by employers and pass through Applicant Tracking Systems (ATS).
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+
+          <TypographyH3 className="my-4 mt-8">What Does This App Do?</TypographyH3>
+          <TypographyP className="font-mono mb-2">
+            This application guides you through the process of building a modern, effective CV step-by-step. It ensures your resume is formatted correctly and contains the right information to maximize your chances of landing an interview.
+          </TypographyP>
+
+          <TypographyH3 className="my-4 mt-8">Key Features</TypographyH3>
+          <ul className="list-disc ml-6 font-mono space-y-2">
+            <li><strong>Step-by-Step Builder:</strong> Breaks down CV creation into easy-to-manage sections (Contact, Summary, Skills, Experience, Education).</li>
+            <li><strong>Real-Time Preview:</strong> See exactly how your CV looks as you type.</li>
+            <li><strong>Smart ATS Scoring:</strong> Built-in ATS Score Panel analyzes your resume in real-time and provides actionable tips.</li>
+            <li><strong>Professional Templates:</strong> Variety of clean, professional templates.</li>
+            <li><strong>AI Assistant:</strong> Built-in AI tools to generate content, improve phrasing, and polish your resume.</li>
+            <li><strong>PDF Export:</strong> Export effortlessly as a high-quality PDF.</li>
+            <li><strong>Multi-language Support:</strong> Build your CV in <strong>English</strong> or <strong>French</strong> with instant switching.</li>
+            <li><strong>Expanded Sections:</strong> Dedicated sections for Projects, Languages, and Certifications.</li>
+            <li><strong>Smart Layout:</strong> Optimized for single-page CVs with two-column layouts for compact sections.</li>
+          </ul>
+
+          <TypographyH3 className="my-4 mt-8">Tech Stack</TypographyH3>
+          <TypographyP className="font-mono mb-2">
+            The project is a modern web application built with a robust and scalable technology stack.
+          </TypographyP>
+          <ul className="list-disc ml-6 font-mono space-y-2">
+            <li><strong>Frontend:</strong> React 18, TypeScript, Vite</li>
+            <li><strong>State Management:</strong> Zustand</li>
+            <li><strong>Styling:</strong> Standard CSS, Lucide React, Framer Motion</li>
+            <li><strong>Forms:</strong> React Hook Form, Zod, Hookform Resolvers</li>
+            <li><strong>Features:</strong> @react-pdf/renderer, @dnd-kit, pdfjs-dist</li>
+          </ul>
+
+          <TypographyH3 className="my-4 mt-8">AI Configuration</TypographyH3>
+          <TypographyP className="font-mono mb-2">
+            The application integrates AI to assist users in optimizing their CVs, using a secure serverless architecture.
+          </TypographyP>
+          <ul className="list-disc ml-6 font-mono space-y-2">
+            <li><strong>Smart Summary:</strong> Generates a professional summary based on your profile.</li>
+            <li><strong>Bullet Enhancer:</strong> Refines and improves the impact of bullet points.</li>
+            <li><strong>Job Description Matcher:</strong> Analyzes the CV against a job description (JD) to suggest improvements.</li>
+            <li><strong>Security:</strong> Uses a Vercel Serverless Function (Edge) to proxy requests to OpenRouter, keeping the API key secure.</li>
+          </ul>
+        </div>
+      );
+    },
+  },
 ];
 export default projects;
